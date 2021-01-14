@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
             SizedBox(
               width: double.infinity,
               child: RaisedButton(onPressed: () => _onClick(),
-                child: Text("押してね", style: TextStyle(fontSize: 18.0),),
+                child: Text("ボタン", style: TextStyle(fontSize: 18.0),),
               ),
             )
 
